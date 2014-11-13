@@ -1,0 +1,16 @@
+[
+{
+  "modid": "grnscrn",
+  "name": "GreenScreen",
+  "description": "Add a Greenscreen to Minecraft for video composition",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["TehStoneMan"],
+  "credits": "Created by TehStoneMan",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
