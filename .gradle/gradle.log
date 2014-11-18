@@ -14,7 +14,7 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 :compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
 1 warning
 
-:processResources UP-TO-DATE
+:processResources
 :classes
 :jar
 :compileTestJava UP-TO-DATE
@@ -32,4 +32,4 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 
 BUILD SUCCESSFUL
 
-Total time: 12.013 secs
+Total time: 3 mins 54.967 secs
