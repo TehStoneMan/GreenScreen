@@ -6,5 +6,5 @@ Add a green screen to Minecraft for video composition
 Changelog
 ---------
 
-0.1
+1.0
     * Initial release
