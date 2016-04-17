@@ -2,44 +2,71 @@ buildscript
 {
     repositories
     {
-        mavenCentral()
+        jcenter()
         maven
         {
             name = "forge"
             url = "http://files.minecraftforge.net/maven"
         }
-        maven
-        {
-            name = "sonatype"
-            url = "https://oss.sonatype.org/content/repositories/snapshots/"
-        }
     }
     dependencies
     {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
     }
 }
 
-apply plugin: 'forge'
+apply plugin: "net.minecraftforge.gradle.forge"
 
 archivesBaseName = "greenscreen"
 group = "io.github.tehstoneman" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-version = "1.7.10-1.2"
+version = "mc1.8.9-1.4"
+
+// java version
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 minecraft
 {
-    version = "1.7.10-10.13.2.1236"
-    assetDir = "eclipse/assets"
+    version = "1.8.9-11.15.1.1722"
+	mappings = "stable_20"
+
+	if( file('../run').exists() )
+	{
+		runDir = "../run/assets"
+	}
+	else
+	{
+		runDir = "assets"
+	}
 }
 
 sourceSets
 {
     main
     {
-        java { srcDirs = ["$projectDir/java"] }
-        resources { srcDirs = ["$projectDir/resources"] }
+        java
+        {
+        	srcDir 'java'
+        }
+        resources
+        {
+        	srcDir 'resources'
+        }
     }
+//    api
+//    {
+//        java
+//        {
+//        	srcDir 'src/api/java'
+//        }
+//    }
 }
+
+// add api classes to main package
+//jar
+//{
+//	from sourceSets.api.output
+//}
 
 processResources
 {

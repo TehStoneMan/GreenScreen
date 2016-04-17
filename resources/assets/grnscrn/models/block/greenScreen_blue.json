@@ -1,0 +1,6 @@
+{
+    "parent": "grnscrn:block/cube_bright",
+    "textures": {
+        "all": "grnscrn:blocks/bluescreen"
+    }
+}

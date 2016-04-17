@@ -1,1 +1,5 @@
-tile.greenScreen.name=Green Screen
+
+tile.greenScreen.blue.name=Blue Screen
+tile.greenScreen.bluetrack.name=Blue Screen (Tracking)
+tile.greenScreen.green.name=Green Screen
+tile.greenScreen.greentrack.name=Green Screen (Tracking)

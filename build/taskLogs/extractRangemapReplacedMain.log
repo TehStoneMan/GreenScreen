@@ -1,0 +1,12 @@
+Symbol range map extraction starting
+Processing 10 files
+processing io\github\tehstoneman\greenscreen\GreenScreen.java
+processing io\github\tehstoneman\greenscreen\ModInfo.java
+processing io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java
+processing io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java
+processing io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java
+processing io\github\tehstoneman\greenscreen\item\ItemBlockGreenScreen.java
+processing io\github\tehstoneman\greenscreen\proxies\ClientProxy.java
+processing io\github\tehstoneman\greenscreen\proxies\CommonProxy.java
+processing io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java
+processing io\github\tehstoneman\greenscreen\utils\LogHelper.java
