@@ -19,7 +19,7 @@ apply plugin: "net.minecraftforge.gradle.forge"
 
 archivesBaseName = "greenscreen"
 group = "io.github.tehstoneman" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-version = "mc1.8.9-1.4"
+version = "mc1.9-1.5"
 
 // java version
 sourceCompatibility = 1.7
@@ -27,8 +27,8 @@ targetCompatibility = 1.7
 
 minecraft
 {
-    version = "1.8.9-11.15.1.1722"
-	mappings = "stable_20"
+    version = "1.9-12.16.0.1865-1.9"
+	mappings = "snapshot_nodoc_20160312"
 
 	if( file('../run').exists() )
 	{

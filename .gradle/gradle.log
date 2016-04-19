@@ -1,5 +1,3 @@
-This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.
-
 #################################################
          ForgeGradle 2.1-SNAPSHOT-da90449        
   https://github.com/MinecraftForge/ForgeGradle  
@@ -15,8 +13,8 @@ This mapping 'stable_20' was designed for MC 1.8.8! Use at your own peril.This m
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJavaNote: C:\Minecraft Dev\GreenScreen\build\sources\main\java\io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java uses or overrides a deprecated API.
+:sourceMainJava UP-TO-DATE
+:compileJavaNote: C:\Minecraft Dev\GreenScreen\build\sources\main\java\io\github\tehstoneman\greenscreen\proxies\CommonProxy.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -37,8 +35,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :reobfJar
 :extractRangemapReplacedMain
 C:\Minecraft Dev\GreenScreen\build\sources\main\java
-:retromapReplacedMain
-remapping source...
+:retromapReplacedMain UP-TO-DATE
 :sourceJar
 :assemble
 :check UP-TO-DATE
@@ -46,4 +43,4 @@ remapping source...
 
 BUILD SUCCESSFUL
 
-Total time: 23.325 secs
+Total time: 21.158 secs

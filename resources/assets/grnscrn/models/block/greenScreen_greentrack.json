@@ -1,5 +1,5 @@
 {
-    "parent": "grnscrn:block/cube_bright",
+    "parent": "block/cube_all",
     "textures": {
         "all": "grnscrn:blocks/greenscreen_track"
     }

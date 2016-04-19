@@ -5,15 +5,14 @@ import java.util.List;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.renderer.block.model.BakedQuad;
+import net.minecraft.client.renderer.block.model.IBakedModel;
 import net.minecraft.client.renderer.block.model.ItemCameraTransforms;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;
-import net.minecraft.client.resources.model.IBakedModel;
 import net.minecraft.util.EnumFacing;
-import net.minecraftforge.client.model.ISmartBlockModel;
 
 // Part of attempt to render block as full-bright.
 // As changes to 1.8 make this difficult, will put that aside for now and hope a solution can be found for the future.
-public class SmartBlockBright implements ISmartBlockModel
+public class SmartBlockBright // implements ISmartBlockModel
 {
 	private final IBakedModel	defaultModel;
 
@@ -22,6 +21,7 @@ public class SmartBlockBright implements ISmartBlockModel
 		this.defaultModel = defaultModel;
 	}
 
+	/*
 	@Override
 	public List< BakedQuad > getFaceQuads( EnumFacing facing )
 	{
@@ -29,7 +29,9 @@ public class SmartBlockBright implements ISmartBlockModel
 		allFaceQuads.addAll( defaultModel.getFaceQuads( facing ) );
 		return allFaceQuads;
 	}
+	*/
 
+	/*
 	@Override
 	public List< BakedQuad > getGeneralQuads()
 	{
@@ -37,42 +39,56 @@ public class SmartBlockBright implements ISmartBlockModel
 		allGeneralQuads.addAll( defaultModel.getGeneralQuads() );
 		return allGeneralQuads;
 	}
+	*/
 
+	/*
 	@Override
 	public boolean isAmbientOcclusion()
 	{
 		return false;
 	}
+	*/
 
+	/*
 	@Override
 	public boolean isGui3d()
 	{
 		return defaultModel.isGui3d();
 	}
+	*/
 
+	/*
 	@Override
 	public boolean isBuiltInRenderer()
 	{
 		return false;
 	}
+	*/
 
+	/*
 	@Override
 	public TextureAtlasSprite getParticleTexture()
 	{
 		return defaultModel.getParticleTexture();
 	}
+	*/
 
+	/*
 	@Override
 	public ItemCameraTransforms getItemCameraTransforms()
 	{
 		return null;
 	}
+	*/
 
+	/*
 	@Override
 	public IBakedModel handleBlockState( IBlockState state )
 	{
 		return this;
 	}
+	*/
+	
 	/*
 	 * @Override
 	 * public void renderInventoryBlock( Block block, int metadata, int modelId, RenderBlocks renderer )

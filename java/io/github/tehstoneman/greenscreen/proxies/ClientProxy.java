@@ -2,8 +2,9 @@ package io.github.tehstoneman.greenscreen.proxies;
 
 import io.github.tehstoneman.greenscreen.ModInfo;
 import io.github.tehstoneman.greenscreen.block.GreenScreenBlock;
-import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -31,7 +32,7 @@ public class ClientProxy extends CommonProxy
 		 */
 
 		// Add block variants to inventory
-		final Item itemBlockGreenScreen = GameRegistry.findItem( ModInfo.MODID, "greenScreen" );
+		Item itemBlockGreenScreen = Item.itemRegistry.getObject( new ResourceLocation( ModInfo.MODID, "greenScreen" ) );
 
 		ModelResourceLocation itemModelResourceLocation = new ModelResourceLocation( ModInfo.MODID + ":" + "greenScreen_green", "inventory" );
 		ModelLoader.setCustomModelResourceLocation( itemBlockGreenScreen, GreenScreenBlock.EnumScreenType.GREEN.getMetadata(),
@@ -48,12 +49,5 @@ public class ClientProxy extends CommonProxy
 		itemModelResourceLocation = new ModelResourceLocation( ModInfo.MODID + ":" + "greenScreen_bluetrack", "inventory" );
 		ModelLoader.setCustomModelResourceLocation( itemBlockGreenScreen, GreenScreenBlock.EnumScreenType.BLUE_TRACK.getMetadata(),
 				itemModelResourceLocation );
-	}
-
-	@Override
-	public void initRenderers()
-	{
-		// final ISimpleBlockRenderingHandler brightISBRH = new BrightISBRH();
-		// RenderingRegistry.registerBlockHandler( GreenScreen.greenScreenBlock.getRenderType(), brightISBRH );
 	}
 }

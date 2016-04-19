@@ -3,10 +3,11 @@ package io.github.tehstoneman.greenscreen.block;
 import java.util.List;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyEnum;
-import net.minecraft.block.state.BlockState;
+import net.minecraft.block.state.BlockStateContainer;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
@@ -24,7 +25,9 @@ public class GreenScreenBlock extends Block
 	{
 		super( material );
 		setHarvestLevel( "axe", 0 );
+		setStepSound( SoundType.CLOTH );
 		setLightLevel(0.5f);
+		setLightOpacity( 15 );
 	}
 
 	 @Override
@@ -56,12 +59,12 @@ public class GreenScreenBlock extends Block
 		EnumScreenType type = (EnumScreenType)state.getValue( PROPERTYSCREENTYPE );
 		return type.getMetadata();
 	}
-	
+
 	@Override
-	protected BlockState createBlockState()
-	{
-		return new BlockState( this, new IProperty[] {PROPERTYSCREENTYPE});
-	}
+    protected BlockStateContainer createBlockState()
+    {
+        return new BlockStateContainer(this, new IProperty[] {PROPERTYSCREENTYPE});
+    }
 
 	// An enum that holds the blockstates for this block
 	public static enum EnumScreenType implements IStringSerializable

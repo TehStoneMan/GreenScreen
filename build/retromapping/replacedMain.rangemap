@@ -3,31 +3,40 @@ Processing 10 files
 processing io\github\tehstoneman\greenscreen\GreenScreen.java
 @|io\github\tehstoneman\greenscreen\GreenScreen.java|8|41|io.github.tehstoneman.greenscreen|package|io.github.tehstoneman.greenscreen|(file)
 Class Start: io.github.tehstoneman.greenscreen.GreenScreen
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1112|1123|ModMetadata|class|net.minecraftforge.fml.common.ModMetadata
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1124|1135|modMetadata|field|io.github.tehstoneman.greenscreen.GreenScreen|modMetadata|
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1153|1158|Block|class|net.minecraft.block.Block
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1161|1177|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock|
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1231|1242|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1243|1251|instance|field|io.github.tehstoneman.greenscreen.GreenScreen|instance|
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1414|1425|CommonProxy|class|io.github.tehstoneman.greenscreen.proxies.CommonProxy
-   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1426|1431|proxy|field|io.github.tehstoneman.greenscreen.GreenScreen|proxy|
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|826|837|ModMetadata|class|net.minecraftforge.fml.common.ModMetadata
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|838|849|modMetadata|field|io.github.tehstoneman.greenscreen.GreenScreen|modMetadata|
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|867|872|Block|class|net.minecraft.block.Block
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|875|891|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock|
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|945|956|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|957|965|instance|field|io.github.tehstoneman.greenscreen.GreenScreen|instance|
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1128|1139|CommonProxy|class|io.github.tehstoneman.greenscreen.proxies.CommonProxy
+   @|io\github\tehstoneman\greenscreen\GreenScreen.java|1140|1145|proxy|field|io.github.tehstoneman.greenscreen.GreenScreen|proxy|
    Method Start: preInitialize(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1462|1475|preInitialize|method|io.github.tehstoneman.greenscreen.GreenScreen|preInitialize|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1477|1502|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1503|1508|event|param|io.github.tehstoneman.greenscreen.GreenScreen|preInitialize|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1516|1521|proxy|field|io.github.tehstoneman.greenscreen.GreenScreen|proxy
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1522|1529|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1176|1189|preInitialize|method|io.github.tehstoneman.greenscreen.GreenScreen|preInitialize|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1191|1216|FMLPreInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPreInitializationEvent
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1217|1222|event|param|io.github.tehstoneman.greenscreen.GreenScreen|preInitialize|(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V|event|0
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1230|1235|proxy|field|io.github.tehstoneman.greenscreen.GreenScreen|proxy
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1236|1243|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
    Method End: preInitialize(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V
    Method Start: initialize(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1627|1637|initialize|method|io.github.tehstoneman.greenscreen.GreenScreen|initialize|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1639|1661|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1662|1667|event|param|io.github.tehstoneman.greenscreen.GreenScreen|initialize|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1279|1289|initialize|method|io.github.tehstoneman.greenscreen.GreenScreen|initialize|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1291|1313|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1314|1319|event|param|io.github.tehstoneman.greenscreen.GreenScreen|initialize|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
    Method End: initialize(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
    Method Start: postInitialization(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1706|1724|postInitialization|method|io.github.tehstoneman.greenscreen.GreenScreen|postInitialization|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1726|1752|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
-      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1753|1758|event|param|io.github.tehstoneman.greenscreen.GreenScreen|postInitialization|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1358|1376|postInitialization|method|io.github.tehstoneman.greenscreen.GreenScreen|postInitialization|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1378|1404|FMLPostInitializationEvent|class|net.minecraftforge.fml.common.event.FMLPostInitializationEvent
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1405|1410|event|param|io.github.tehstoneman.greenscreen.GreenScreen|postInitialization|(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V|event|0
    Method End: postInitialization(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V
+   Method Start: modAsset(Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1629|1637|modAsset|method|io.github.tehstoneman.greenscreen.GreenScreen|modAsset|(Ljava/lang/String;)Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1622|1628|String|class|java.lang.String
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1639|1645|String|class|java.lang.String
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1646|1650|name|param|io.github.tehstoneman.greenscreen.GreenScreen|modAsset|(Ljava/lang/String;)Ljava/lang/String;|name|0
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1665|1672|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1673|1678|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\GreenScreen.java|1687|1691|name|param|io.github.tehstoneman.greenscreen.GreenScreen|modAsset|(Ljava/lang/String;)Ljava/lang/String;|name|0
+   Method End: modAsset(Ljava/lang/String;)Ljava/lang/String;
 Class End  : io.github.tehstoneman.greenscreen.GreenScreen
 endProcessing io\github\tehstoneman\greenscreen\GreenScreen.java
 
@@ -44,142 +53,146 @@ Class Start: io.github.tehstoneman.greenscreen.ModInfo
    @|io\github\tehstoneman\greenscreen\ModInfo.java|243|255|DEPENDENCIES|field|io.github.tehstoneman.greenscreen.ModInfo|DEPENDENCIES|
    @|io\github\tehstoneman\greenscreen\ModInfo.java|319|325|String|class|java.lang.String
    @|io\github\tehstoneman\greenscreen\ModInfo.java|326|335|MINECRAFT|field|io.github.tehstoneman.greenscreen.ModInfo|MINECRAFT|
-   @|io\github\tehstoneman\greenscreen\ModInfo.java|372|378|String|class|java.lang.String
-   @|io\github\tehstoneman\greenscreen\ModInfo.java|379|393|PROXY_LOCATION|field|io.github.tehstoneman.greenscreen.ModInfo|PROXY_LOCATION|
+   @|io\github\tehstoneman\greenscreen\ModInfo.java|370|376|String|class|java.lang.String
+   @|io\github\tehstoneman\greenscreen\ModInfo.java|377|391|PROXY_LOCATION|field|io.github.tehstoneman.greenscreen.ModInfo|PROXY_LOCATION|
 Class End  : io.github.tehstoneman.greenscreen.ModInfo
 endProcessing io\github\tehstoneman\greenscreen\ModInfo.java
 
 processing io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java
 @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|8|47|io.github.tehstoneman.greenscreen.block|package|io.github.tehstoneman.greenscreen.block|(file)
 Class Start: io.github.tehstoneman.greenscreen.block.GreenScreenBlock
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|673|681|renderID|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|renderID|
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|698|710|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|711|729|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE|
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|732|744|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|745|751|create|method|net.minecraft.block.properties.PropertyEnum|create|(Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;
-   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|767|781|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|720|728|renderID|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|renderID|
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|745|757|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|758|776|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE|
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|779|791|PropertyEnum|class|net.minecraft.block.properties.PropertyEnum
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|792|798|create|method|net.minecraft.block.properties.PropertyEnum|create|(Ljava/lang/String;Ljava/lang/Class;)Lnet/minecraft/block/properties/PropertyEnum;
+   @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|814|828|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
    Method Start: GreenScreenBlock(Lnet/minecraft/block/material/Material;)V
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|800|816|GreenScreenBlock|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|818|826|Material|class|net.minecraft.block.material.Material
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|827|835|material|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V|material|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|850|858|material|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V|material|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|864|879|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|895|908|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|847|863|GreenScreenBlock|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|865|873|Material|class|net.minecraft.block.material.Material
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|874|882|material|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V|material|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|897|905|material|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|GreenScreenBlock|(Lnet/minecraft/block/material/Material;)V|material|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|911|926|setHarvestLevel|method|net.minecraft.block.Block|setHarvestLevel|(Ljava/lang/String;I)V
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|942|954|setStepSound|method|net.minecraft.block.Block|setStepSound|(Lnet/minecraft/block/SoundType;)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|956|965|SoundType|class|net.minecraft.block.SoundType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|966|971|CLOTH|field|net.minecraft.block.SoundType|CLOTH
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|977|990|setLightLevel|method|net.minecraft.block.Block|setLightLevel|(F)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1000|1015|setLightOpacity|method|net.minecraft.block.Block|setLightOpacity|(I)Lnet/minecraft/block/Block;
    Method End: GreenScreenBlock(Lnet/minecraft/block/material/Material;)V
    Method Start: damageDropped(Lnet/minecraft/block/state/IBlockState;)I
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|945|958|damageDropped|method|net.minecraft.block.Block|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|960|971|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|972|977|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|987|1001|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1020|1034|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1035|1040|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1041|1049|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1051|1069|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1098|1109|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1052|1065|damageDropped|method|net.minecraft.block.Block|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1067|1078|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1079|1084|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1094|1108|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1127|1141|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1142|1147|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|damageDropped|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1148|1156|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1158|1176|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1205|1216|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
    Method End: damageDropped(Lnet/minecraft/block/state/IBlockState;)I
    Method Start: getSubBlocks(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1168|1180|getSubBlocks|method|net.minecraft.block.Block|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1182|1186|Item|class|net.minecraft.item.Item
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1187|1191|item|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|item|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1193|1205|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1206|1209|tab|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|tab|1
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1211|1215|List|class|java.util.List
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1216|1220|list|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|list|2
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1228|1242|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1262|1276|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1277|1283|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1294|1308|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1336|1340|list|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|list|2
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1341|1344|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1350|1359|ItemStack|class|net.minecraft.item.ItemStack
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1361|1365|item|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|item|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1375|1386|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1275|1287|getSubBlocks|method|net.minecraft.block.Block|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1289|1293|Item|class|net.minecraft.item.Item
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1294|1298|item|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|item|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1300|1312|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1313|1316|tab|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|tab|1
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1318|1322|List|class|java.util.List
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1323|1327|list|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|list|2
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1335|1349|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1369|1383|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1384|1390|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1401|1415|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1443|1447|list|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|list|2
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1448|1451|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1457|1466|ItemStack|class|net.minecraft.item.ItemStack
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1468|1472|item|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getSubBlocks|(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V|item|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1482|1493|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
    Method End: getSubBlocks(Lnet/minecraft/item/Item;Lnet/minecraft/creativetab/CreativeTabs;Ljava/util/List;)V
    Method Start: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1430|1446|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1418|1429|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1451|1455|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1462|1476|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1484|1498|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1499|1509|byMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1511|1515|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1533|1548|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1551|1563|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1565|1583|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1537|1553|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1525|1536|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1558|1562|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1569|1583|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1591|1605|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1606|1616|byMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1618|1622|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;|meta|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1640|1655|getDefaultState|method|net.minecraft.block.Block|getDefaultState|()Lnet/minecraft/block/state/IBlockState;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1658|1670|withProperty|method|net.minecraft.block.state.IBlockState|withProperty|(Lnet/minecraft/block/properties/IProperty;Ljava/lang/Comparable;)Lnet/minecraft/block/state/IBlockState;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1672|1690|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
    Method End: getStateFromMeta(I)Lnet/minecraft/block/state/IBlockState;
    Method Start: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1621|1637|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1638|1649|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1650|1655|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1662|1676|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1685|1699|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1700|1705|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1706|1714|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1716|1734|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1752|1763|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1728|1744|getMetaFromState|method|net.minecraft.block.Block|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1745|1756|IBlockState|class|net.minecraft.block.state.IBlockState
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1757|1762|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1769|1783|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1792|1806|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1807|1812|state|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|getMetaFromState|(Lnet/minecraft/block/state/IBlockState;)I|state|0
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1813|1821|getValue|method|net.minecraft.block.state.IBlockState|getValue|(Lnet/minecraft/block/properties/IProperty;)Ljava/lang/Comparable;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1823|1841|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1859|1870|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
    Method End: getMetaFromState(Lnet/minecraft/block/state/IBlockState;)I
-   Method Start: createBlockState()Lnet/minecraft/block/state/BlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1805|1821|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockState;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1794|1804|BlockState|class|net.minecraft.block.state.BlockState
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1840|1850|BlockState|class|net.minecraft.block.state.BlockState
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1862|1871|IProperty|class|net.minecraft.block.properties.IProperty
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1875|1893|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
-   Method End: createBlockState()Lnet/minecraft/block/state/BlockState;
+   Method Start: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1923|1939|createBlockState|method|net.minecraft.block.Block|createBlockState|()Lnet/minecraft/block/state/BlockStateContainer;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1903|1922|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1967|1986|BlockStateContainer|class|net.minecraft.block.state.BlockStateContainer
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1997|2006|IProperty|class|net.minecraft.block.properties.IProperty
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2010|2028|PROPERTYSCREENTYPE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock|PROPERTYSCREENTYPE
+   Method End: createBlockState()Lnet/minecraft/block/state/BlockStateContainer;
    Enum Start: io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|1975|1989|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2001|2020|IStringSerializable|class|net.minecraft.util.IStringSerializable
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2026|2031|GREEN|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2047|2051|BLUE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2066|2077|GREEN_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN_TRACK
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2098|2108|BLUE_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE_TRACK
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2152|2156|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta|
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2174|2180|String|class|java.lang.String
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2183|2187|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name|
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2206|2220|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2223|2234|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP|
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2241|2255|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2256|2262|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2113|2127|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2139|2158|IStringSerializable|class|net.minecraft.util.IStringSerializable
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2164|2169|GREEN|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2185|2189|BLUE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2204|2215|GREEN_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN_TRACK
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2236|2246|BLUE_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE_TRACK
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2290|2294|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta|
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2312|2318|String|class|java.lang.String
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2321|2325|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name|
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2344|2358|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2361|2372|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP|
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2379|2393|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2394|2400|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
       Field: Array Length, skipping
       Method Start: EnumScreenType(ILjava/lang/String;)V
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2285|2299|EnumScreenType|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2305|2309|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2311|2317|String|class|java.lang.String
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2318|2322|name|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|name|1
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2337|2341|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2344|2348|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2358|2362|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2365|2369|name|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|name|1
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2423|2437|EnumScreenType|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2443|2447|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2449|2455|String|class|java.lang.String
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2456|2460|name|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|name|1
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2475|2479|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2482|2486|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2496|2500|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2503|2507|name|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|EnumScreenType|(ILjava/lang/String;)V|name|1
       Method End: EnumScreenType(ILjava/lang/String;)V
       Method Start: toString()Ljava/lang/String;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2406|2414|toString|method|java.lang.Object|toString|()Ljava/lang/String;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2399|2405|String|class|java.lang.String
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2436|2440|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2544|2552|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2537|2543|String|class|java.lang.String
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2574|2578|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
       Method End: toString()Ljava/lang/String;
       Method Start: getMetadata()I
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2460|2471|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2488|2492|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2598|2609|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2626|2630|meta|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|meta
       Method End: getMetadata()I
       Method Start: getName()Ljava/lang/String;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2515|2522|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2508|2514|String|class|java.lang.String
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2539|2543|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2653|2660|getName|method|net.minecraft.util.IStringSerializable|getName|()Ljava/lang/String;
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2646|2652|String|class|java.lang.String
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2677|2681|name|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|name
       Method End: getName()Ljava/lang/String;
       Method Start: byMetadata(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2581|2591|byMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2566|2580|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2597|2601|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2615|2619|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2627|2631|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2635|2646|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2719|2729|byMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2704|2718|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2735|2739|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2753|2757|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2765|2769|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2773|2784|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
          Field: Array Length, skipping
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2660|2664|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2680|2691|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
-         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2692|2696|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2798|2802|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2818|2829|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
+         @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2830|2834|meta|param|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|byMetadata|(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;|meta|0
       Method End: byMetadata(I)Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2731|2745|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2753|2759|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2768|2779|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
-      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2785|2796|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2869|2883|EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2891|2897|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2906|2917|META_LOOKUP|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|META_LOOKUP
+      @|io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java|2923|2934|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
    Enum End  : io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
 Class End  : io.github.tehstoneman.greenscreen.block.GreenScreenBlock
 endProcessing io\github\tehstoneman\greenscreen\block\GreenScreenBlock.java
@@ -188,31 +201,31 @@ processing io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java
 @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|8|54|io.github.tehstoneman.greenscreen.client.model|package|io.github.tehstoneman.greenscreen.client.model|(file)
 Class Start: io.github.tehstoneman.greenscreen.client.model.ModelBrightCube
    Method Start: getDependencies()Ljava/util/Collection;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|555|570|getDependencies|method|net.minecraftforge.client.model.IModel|getDependencies|()Ljava/util/Collection;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|536|552|ResourceLocation|class|net.minecraft.util.ResourceLocation
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|524|534|Collection|class|java.util.Collection
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|557|572|getDependencies|method|net.minecraftforge.client.model.IModel|getDependencies|()Ljava/util/Collection;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|538|554|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|526|536|Collection|class|java.util.Collection
    Method End: getDependencies()Ljava/util/Collection;
    Method Start: getTextures()Ljava/util/Collection;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|682|693|getTextures|method|net.minecraftforge.client.model.IModel|getTextures|()Ljava/util/Collection;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|663|679|ResourceLocation|class|net.minecraft.util.ResourceLocation
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|651|661|Collection|class|java.util.Collection
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|684|695|getTextures|method|net.minecraftforge.client.model.IModel|getTextures|()Ljava/util/Collection;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|665|681|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|653|663|Collection|class|java.util.Collection
    Method End: getTextures()Ljava/util/Collection;
-   Method Start: bake(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|794|798|bake|method|net.minecraftforge.client.model.IModel|bake|(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|774|793|IFlexibleBakedModel|class|net.minecraftforge.client.model.IFlexibleBakedModel
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|800|811|IModelState|class|net.minecraftforge.client.model.IModelState
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|812|817|state|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;|state|0
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|819|831|VertexFormat|class|net.minecraft.client.renderer.vertex.VertexFormat
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|832|838|format|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;|format|1
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|850|866|ResourceLocation|class|net.minecraft.util.ResourceLocation
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|868|886|TextureAtlasSprite|class|net.minecraft.client.renderer.texture.TextureAtlasSprite
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|840|848|Function|class|com.google.common.base.Function
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|889|907|bakedTextureGetter|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;|bakedTextureGetter|2
-   Method End: bake(Lnet/minecraftforge/client/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraftforge/client/model/IFlexibleBakedModel;
-   Method Start: getDefaultState()Lnet/minecraftforge/client/model/IModelState;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|1000|1015|getDefaultState|method|net.minecraftforge.client.model.IModel|getDefaultState|()Lnet/minecraftforge/client/model/IModelState;
-      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|988|999|IModelState|class|net.minecraftforge.client.model.IModelState
-   Method End: getDefaultState()Lnet/minecraftforge/client/model/IModelState;
+   Method Start: bake(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|788|792|bake|method|net.minecraftforge.client.model.IModel|bake|(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|776|787|IBakedModel|class|net.minecraft.client.renderer.block.model.IBakedModel
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|794|805|IModelState|class|net.minecraftforge.common.model.IModelState
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|806|811|state|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;|state|0
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|813|825|VertexFormat|class|net.minecraft.client.renderer.vertex.VertexFormat
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|826|832|format|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;|format|1
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|844|860|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|862|880|TextureAtlasSprite|class|net.minecraft.client.renderer.texture.TextureAtlasSprite
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|834|842|Function|class|com.google.common.base.Function
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|883|901|bakedTextureGetter|param|io.github.tehstoneman.greenscreen.client.model.ModelBrightCube|bake|(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;|bakedTextureGetter|2
+   Method End: bake(Lnet/minecraftforge/common/model/IModelState;Lnet/minecraft/client/renderer/vertex/VertexFormat;Lcom/google/common/base/Function;)Lnet/minecraft/client/renderer/block/model/IBakedModel;
+   Method Start: getDefaultState()Lnet/minecraftforge/common/model/IModelState;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|994|1009|getDefaultState|method|net.minecraftforge.client.model.IModel|getDefaultState|()Lnet/minecraftforge/common/model/IModelState;
+      @|io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java|982|993|IModelState|class|net.minecraftforge.common.model.IModelState
+   Method End: getDefaultState()Lnet/minecraftforge/common/model/IModelState;
 Class End  : io.github.tehstoneman.greenscreen.client.model.ModelBrightCube
 endProcessing io\github\tehstoneman\greenscreen\client\model\ModelBrightCube.java
 
@@ -220,67 +233,41 @@ processing io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java
 @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|8|48|io.github.tehstoneman.greenscreen.events|package|io.github.tehstoneman.greenscreen.events|(file)
 Class Start: io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler
    Method Start: ModelBakeEventHandler()V
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|930|951|ModelBakeEventHandler|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|ModelBakeEventHandler|()V
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|940|961|ModelBakeEventHandler|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|ModelBakeEventHandler|()V
    Method End: ModelBakeEventHandler()V
    Method Start: onModelBakeEvent(Lnet/minecraftforge/client/event/ModelBakeEvent;)V
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|990|1006|onModelBakeEvent|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1008|1022|ModelBakeEvent|class|net.minecraftforge.client.event.ModelBakeEvent
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1023|1028|event|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V|event|0
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1047|1078|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1086|1117|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1118|1124|values|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|values|()[Lio/github/tehstoneman/greenscreen/block/GreenScreenBlock$EnumScreenType;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1142|1148|String|class|java.lang.String
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1166|1183|getPropertyString|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1185|1196|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1197|1213|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1214|1230|getStateFromMeta|method|net.minecraft.block.Block|getStateFromMeta|(I)Lnet/minecraft/block/state/IBlockState;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1237|1248|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1253|1266|getProperties|method|net.minecraft.block.state.IBlockState|getProperties|()Lcom/google/common/collect/ImmutableMap;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1281|1302|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1331|1352|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1354|1361|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1362|1367|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1413|1419|Object|class|java.lang.Object
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1429|1434|event|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V|event|0
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1435|1448|modelRegistry|field|net.minecraftforge.client.event.ModelBakeEvent|modelRegistry
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1449|1458|getObject|method|net.minecraft.util.IRegistry|getObject|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1510|1521|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1539|1550|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1568|1579|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1598|1614|SmartBlockBright|class|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1633|1649|SmartBlockBright|class|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1672|1677|event|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V|event|0
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1678|1691|modelRegistry|field|net.minecraftforge.client.event.ModelBakeEvent|modelRegistry
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1692|1701|putObject|method|net.minecraft.util.IRegistry|putObject|(Ljava/lang/Object;Ljava/lang/Object;)V
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1000|1016|onModelBakeEvent|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1018|1032|ModelBakeEvent|class|net.minecraftforge.client.event.ModelBakeEvent
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1033|1038|event|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|onModelBakeEvent|(Lnet/minecraftforge/client/event/ModelBakeEvent;)V|event|0
    Method End: onModelBakeEvent(Lnet/minecraftforge/client/event/ModelBakeEvent;)V
    Method Start: getPropertyString(Ljava/util/Map;)Ljava/lang/String;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1811|1828|getPropertyString|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1804|1810|String|class|java.lang.String
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1835|1844|IProperty|class|net.minecraft.block.properties.IProperty
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1846|1856|Comparable|class|java.lang.Comparable
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1830|1833|Map|class|java.util.Map
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1859|1864|state|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;|state|0
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1878|1891|StringBuilder|class|java.lang.StringBuilder
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1912|1925|StringBuilder|class|java.lang.StringBuilder
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1943|1948|Entry|class|java.util.Map.Entry
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1950|1959|IProperty|class|net.minecraft.block.properties.IProperty
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1961|1971|Comparable|class|java.lang.Comparable
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1982|1987|state|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;|state|0
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1988|1996|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2026|2032|length|method|java.lang.CharSequence|length|()I
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2060|2066|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2085|2094|IProperty|class|net.minecraft.block.properties.IProperty
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2113|2119|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2132|2142|Comparable|class|java.lang.Comparable
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2162|2170|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2191|2197|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2209|2216|getName|method|net.minecraft.block.properties.IProperty|getName|()Ljava/lang/String;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2239|2245|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2271|2277|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2289|2296|getName|method|net.minecraft.block.properties.IProperty|getName|(Ljava/lang/Comparable;)Ljava/lang/String;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2339|2345|length|method|java.lang.CharSequence|length|()I
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2372|2378|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
-      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2416|2424|toString|method|java.lang.Object|toString|()Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1831|1848|getPropertyString|method|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1824|1830|String|class|java.lang.String
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1855|1864|IProperty|class|net.minecraft.block.properties.IProperty
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1866|1876|Comparable|class|java.lang.Comparable
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1850|1853|Map|class|java.util.Map
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1879|1884|state|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;|state|0
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1898|1911|StringBuilder|class|java.lang.StringBuilder
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1932|1945|StringBuilder|class|java.lang.StringBuilder
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1963|1968|Entry|class|java.util.Map.Entry
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1970|1979|IProperty|class|net.minecraft.block.properties.IProperty
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|1981|1991|Comparable|class|java.lang.Comparable
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2002|2007|state|param|io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler|getPropertyString|(Ljava/util/Map;)Ljava/lang/String;|state|0
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2008|2016|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2046|2052|length|method|java.lang.CharSequence|length|()I
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2080|2086|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2105|2114|IProperty|class|net.minecraft.block.properties.IProperty
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2133|2139|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2152|2162|Comparable|class|java.lang.Comparable
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2182|2190|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2211|2217|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2229|2236|getName|method|net.minecraft.block.properties.IProperty|getName|()Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2259|2265|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2291|2297|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2309|2316|getName|method|net.minecraft.block.properties.IProperty|getName|(Ljava/lang/Comparable;)Ljava/lang/String;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2359|2365|length|method|java.lang.CharSequence|length|()I
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2392|2398|append|method|java.lang.AbstractStringBuilder|append|(Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;
+      @|io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java|2436|2444|toString|method|java.lang.Object|toString|()Ljava/lang/String;
    Method End: getPropertyString(Ljava/util/Map;)Ljava/lang/String;
 Class End  : io.github.tehstoneman.greenscreen.events.ModelBakeEventHandler
 endProcessing io\github\tehstoneman\greenscreen\events\ModelBakeEventHandler.java
@@ -321,50 +308,49 @@ processing io\github\tehstoneman\greenscreen\proxies\ClientProxy.java
 @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|8|49|io.github.tehstoneman.greenscreen.proxies|package|io.github.tehstoneman.greenscreen.proxies|(file)
 Class Start: io.github.tehstoneman.greenscreen.proxies.ClientProxy
    Method Start: preInit()V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|450|457|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|471|478|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1192|1196|Item|class|net.minecraft.item.Item
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1220|1232|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1233|1241|findItem|method|net.minecraftforge.fml.common.registry.GameRegistry|findItem|(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/item/Item;
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1243|1250|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1251|1256|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1278|1299|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1332|1353|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1355|1362|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1363|1368|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1415|1426|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1427|1457|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1481|1512|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1513|1518|GREEN|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1519|1530|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1602|1623|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1625|1632|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1633|1638|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1684|1695|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1696|1726|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1750|1781|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1782|1786|BLUE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1787|1798|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1870|1891|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1893|1900|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1901|1906|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1958|1969|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1970|2000|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2024|2055|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2056|2067|GREEN_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN_TRACK
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2068|2079|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2151|2172|ModelResourceLocation|class|net.minecraft.client.resources.model.ModelResourceLocation
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2174|2181|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2182|2187|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2238|2249|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2250|2280|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/resources/model/ModelResourceLocation;)V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2304|2335|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2336|2346|BLUE_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE_TRACK
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2347|2358|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|499|506|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|520|527|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1235|1239|Item|class|net.minecraft.item.Item
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1263|1267|Item|class|net.minecraft.item.Item
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1268|1280|itemRegistry|field|net.minecraft.item.Item|itemRegistry
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1281|1290|getObject|method|net.minecraft.util.registry.IRegistry|getObject|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1296|1312|ResourceLocation|class|net.minecraft.util.ResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1314|1321|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1322|1327|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1351|1372|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1405|1426|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1428|1435|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1436|1441|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1488|1499|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1500|1530|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1554|1585|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1586|1591|GREEN|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1592|1603|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1675|1696|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1698|1705|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1706|1711|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1757|1768|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1769|1799|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1823|1854|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1855|1859|BLUE|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1860|1871|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1943|1964|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1966|1973|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|1974|1979|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2031|2042|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2043|2073|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2097|2128|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2129|2140|GREEN_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|GREEN_TRACK
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2141|2152|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2224|2245|ModelResourceLocation|class|net.minecraft.client.renderer.block.model.ModelResourceLocation
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2247|2254|ModInfo|class|io.github.tehstoneman.greenscreen.ModInfo
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2255|2260|MODID|field|io.github.tehstoneman.greenscreen.ModInfo|MODID
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2311|2322|ModelLoader|class|net.minecraftforge.client.model.ModelLoader
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2323|2353|setCustomModelResourceLocation|method|net.minecraftforge.client.model.ModelLoader|setCustomModelResourceLocation|(Lnet/minecraft/item/Item;ILnet/minecraft/client/renderer/block/model/ModelResourceLocation;)V
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2377|2408|GreenScreenBlock.EnumScreenType|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2409|2419|BLUE_TRACK|field|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|BLUE_TRACK
+      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2420|2431|getMetadata|method|io.github.tehstoneman.greenscreen.block.GreenScreenBlock.EnumScreenType|getMetadata|()I
    Method End: preInit()V
-   Method Start: initRenderers()V
-      @|io\github\tehstoneman\greenscreen\proxies\ClientProxy.java|2423|2436|initRenderers|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|initRenderers|()V
-   Method End: initRenderers()V
 Class End  : io.github.tehstoneman.greenscreen.proxies.ClientProxy
 endProcessing io\github\tehstoneman\greenscreen\proxies\ClientProxy.java
 
@@ -372,98 +358,38 @@ processing io\github\tehstoneman\greenscreen\proxies\CommonProxy.java
 @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|8|49|io.github.tehstoneman.greenscreen.proxies|package|io.github.tehstoneman.greenscreen.proxies|(file)
 Class Start: io.github.tehstoneman.greenscreen.proxies.CommonProxy
    Method Start: preInit()V
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|467|474|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|506|517|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|518|534|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|541|557|GreenScreenBlock|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|559|567|Material|class|net.minecraft.block.material.Material
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|568|574|ground|field|net.minecraft.block.material.Material|ground
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|587|598|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|617|629|setStepSound|method|net.minecraft.block.Block|setStepSound|(Lnet/minecraft/block/Block$SoundType;)Lnet/minecraft/block/Block;
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|631|636|Block|class|net.minecraft.block.Block
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|637|651|soundTypeCloth|field|net.minecraft.block.Block|soundTypeCloth
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|664|682|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|710|724|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|726|738|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|739|753|tabDecorations|field|net.minecraft.creativetab.CreativeTabs|tabDecorations
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|827|839|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|840|853|registerBlock|method|net.minecraftforge.fml.common.registry.GameRegistry|registerBlock|(Lnet/minecraft/block/Block;Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/block/Block;
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|855|866|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|867|883|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|885|905|ItemBlockGreenScreen|class|io.github.tehstoneman.greenscreen.item.ItemBlockGreenScreen
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|471|478|preInit|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|preInit|()V
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|510|521|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|522|538|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|545|561|GreenScreenBlock|class|io.github.tehstoneman.greenscreen.block.GreenScreenBlock
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|563|571|Material|class|net.minecraft.block.material.Material
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|572|578|ground|field|net.minecraft.block.material.Material|ground
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|591|602|setHardness|method|net.minecraft.block.Block|setHardness|(F)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|621|639|setUnlocalizedName|method|net.minecraft.block.Block|setUnlocalizedName|(Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|667|681|setCreativeTab|method|net.minecraft.block.Block|setCreativeTab|(Lnet/minecraft/creativetab/CreativeTabs;)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|683|695|CreativeTabs|class|net.minecraft.creativetab.CreativeTabs
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|696|710|tabDecorations|field|net.minecraft.creativetab.CreativeTabs|tabDecorations
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|784|796|GameRegistry|class|net.minecraftforge.fml.common.registry.GameRegistry
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|797|810|registerBlock|method|net.minecraftforge.fml.common.registry.GameRegistry|registerBlock|(Lnet/minecraft/block/Block;Ljava/lang/Class;Ljava/lang/String;)Lnet/minecraft/block/Block;
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|812|823|GreenScreen|class|io.github.tehstoneman.greenscreen.GreenScreen
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|824|840|greenScreenBlock|field|io.github.tehstoneman.greenscreen.GreenScreen|greenScreenBlock
+      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|842|862|ItemBlockGreenScreen|class|io.github.tehstoneman.greenscreen.item.ItemBlockGreenScreen
    Method End: preInit()V
-   Method Start: initRenderers()V
-      @|io\github\tehstoneman\greenscreen\proxies\CommonProxy.java|947|960|initRenderers|method|io.github.tehstoneman.greenscreen.proxies.CommonProxy|initRenderers|()V
-   Method End: initRenderers()V
 Class End  : io.github.tehstoneman.greenscreen.proxies.CommonProxy
 endProcessing io\github\tehstoneman\greenscreen\proxies\CommonProxy.java
 
 processing io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java
 @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|8|51|io.github.tehstoneman.greenscreen.renderers|package|io.github.tehstoneman.greenscreen.renderers|(file)
 Class Start: io.github.tehstoneman.greenscreen.renderers.SmartBlockBright
-   @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|747|758|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-   @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|759|771|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel|
-   Method Start: SmartBlockBright(Lnet/minecraft/client/resources/model/IBakedModel;)V
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|782|798|SmartBlockBright|method|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/resources/model/IBakedModel;)V
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|800|811|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|812|824|defaultModel|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/resources/model/IBakedModel;)V|defaultModel|0
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|837|849|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|852|864|defaultModel|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/resources/model/IBakedModel;)V|defaultModel|0
-   Method End: SmartBlockBright(Lnet/minecraft/client/resources/model/IBakedModel;)V
-   Method Start: getFaceQuads(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|907|919|getFaceQuads|method|net.minecraft.client.resources.model.IBakedModel|getFaceQuads|(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|895|904|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|889|893|List|class|java.util.List
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|921|931|EnumFacing|class|net.minecraft.util.EnumFacing
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|932|938|facing|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|getFaceQuads|(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;|facing|0
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|952|956|List|class|java.util.List
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|958|967|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|989|999|LinkedList|class|java.util.LinkedList
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1001|1010|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1031|1037|addAll|method|java.util.Collection|addAll|(Ljava/util/Collection;)Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1039|1051|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1052|1064|getFaceQuads|method|net.minecraft.client.resources.model.IBakedModel|getFaceQuads|(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1066|1072|facing|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|getFaceQuads|(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;|facing|0
-   Method End: getFaceQuads(Lnet/minecraft/util/EnumFacing;)Ljava/util/List;
-   Method Start: getGeneralQuads()Ljava/util/List;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1142|1157|getGeneralQuads|method|net.minecraft.client.resources.model.IBakedModel|getGeneralQuads|()Ljava/util/List;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1130|1139|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1124|1128|List|class|java.util.List
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1171|1175|List|class|java.util.List
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1177|1186|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1211|1221|LinkedList|class|java.util.LinkedList
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1223|1232|BakedQuad|class|net.minecraft.client.renderer.block.model.BakedQuad
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1256|1262|addAll|method|java.util.Collection|addAll|(Ljava/util/Collection;)Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1264|1276|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1277|1292|getGeneralQuads|method|net.minecraft.client.resources.model.IBakedModel|getGeneralQuads|()Ljava/util/List;
-   Method End: getGeneralQuads()Ljava/util/List;
-   Method Start: isAmbientOcclusion()Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1355|1373|isAmbientOcclusion|method|net.minecraft.client.resources.model.IBakedModel|isAmbientOcclusion|()Z
-   Method End: isAmbientOcclusion()Z
-   Method Start: isGui3d()Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1426|1433|isGui3d|method|net.minecraft.client.resources.model.IBakedModel|isGui3d|()Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1448|1460|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1461|1468|isGui3d|method|net.minecraft.client.resources.model.IBakedModel|isGui3d|()Z
-   Method End: isGui3d()Z
-   Method Start: isBuiltInRenderer()Z
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1503|1520|isBuiltInRenderer|method|net.minecraft.client.resources.model.IBakedModel|isBuiltInRenderer|()Z
-   Method End: isBuiltInRenderer()Z
-   Method Start: getParticleTexture()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1584|1602|getParticleTexture|method|net.minecraft.client.resources.model.IBakedModel|getParticleTexture|()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1565|1583|TextureAtlasSprite|class|net.minecraft.client.renderer.texture.TextureAtlasSprite
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1617|1629|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1630|1648|getParticleTexture|method|net.minecraft.client.resources.model.IBakedModel|getParticleTexture|()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;
-   Method End: getParticleTexture()Lnet/minecraft/client/renderer/texture/TextureAtlasSprite;
-   Method Start: getItemCameraTransforms()Lnet/minecraft/client/renderer/block/model/ItemCameraTransforms;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1696|1719|getItemCameraTransforms|method|net.minecraft.client.resources.model.IBakedModel|getItemCameraTransforms|()Lnet/minecraft/client/renderer/block/model/ItemCameraTransforms;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1675|1695|ItemCameraTransforms|class|net.minecraft.client.renderer.block.model.ItemCameraTransforms
-   Method End: getItemCameraTransforms()Lnet/minecraft/client/renderer/block/model/ItemCameraTransforms;
-   Method Start: handleBlockState(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/resources/model/IBakedModel;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1775|1791|handleBlockState|method|net.minecraftforge.client.model.ISmartBlockModel|handleBlockState|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/resources/model/IBakedModel;
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1763|1774|IBakedModel|class|net.minecraft.client.resources.model.IBakedModel
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1793|1804|IBlockState|class|net.minecraft.block.state.IBlockState
-      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|1805|1810|state|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|handleBlockState|(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/resources/model/IBakedModel;|state|0
-   Method End: handleBlockState(Lnet/minecraft/block/state/IBlockState;)Lnet/minecraft/client/resources/model/IBakedModel;
+   @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|698|709|IBakedModel|class|net.minecraft.client.renderer.block.model.IBakedModel
+   @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|710|722|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel|
+   Method Start: SmartBlockBright(Lnet/minecraft/client/renderer/block/model/IBakedModel;)V
+      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|733|749|SmartBlockBright|method|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/renderer/block/model/IBakedModel;)V
+      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|751|762|IBakedModel|class|net.minecraft.client.renderer.block.model.IBakedModel
+      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|763|775|defaultModel|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/renderer/block/model/IBakedModel;)V|defaultModel|0
+      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|788|800|defaultModel|field|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|defaultModel
+      @|io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java|803|815|defaultModel|param|io.github.tehstoneman.greenscreen.renderers.SmartBlockBright|SmartBlockBright|(Lnet/minecraft/client/renderer/block/model/IBakedModel;)V|defaultModel|0
+   Method End: SmartBlockBright(Lnet/minecraft/client/renderer/block/model/IBakedModel;)V
 Class End  : io.github.tehstoneman.greenscreen.renderers.SmartBlockBright
 endProcessing io\github\tehstoneman\greenscreen\renderers\SmartBlockBright.java
 

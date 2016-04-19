@@ -9,8 +9,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 import net.minecraft.block.properties.IProperty;
-import net.minecraft.client.resources.model.IBakedModel;
-import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.client.renderer.block.model.IBakedModel;
+import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraftforge.client.event.ModelBakeEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
@@ -26,6 +26,7 @@ public class ModelBakeEventHandler
 	@SubscribeEvent
 	public void onModelBakeEvent( ModelBakeEvent event )
 	{
+		/*
 		for( final GreenScreenBlock.EnumScreenType type : GreenScreenBlock.EnumScreenType.values() )
 		{
 			final String propertyString = getPropertyString( GreenScreen.greenScreenBlock.getStateFromMeta( type.getMetadata() ).getProperties() );
@@ -38,6 +39,7 @@ public class ModelBakeEventHandler
 				event.modelRegistry.putObject( modelResourceLocation, customModel );
 			}
 		}
+		*/
 	}
 
 	// Copied from Minecraft:StateMapperBase
