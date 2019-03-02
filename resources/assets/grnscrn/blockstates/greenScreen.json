@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "screentype=green"      : { "model": "grnscrn:greenScreen_green" },
-        "screentype=blue"       : { "model": "grnscrn:greenScreen_blue" },
-        "screentype=greentrack" : { "model": "grnscrn:greenScreen_greentrack" },
-        "screentype=bluetrack"  : { "model": "grnscrn:greenScreen_bluetrack" }
-    }
-}

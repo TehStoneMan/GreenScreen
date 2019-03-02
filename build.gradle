@@ -1,92 +1,101 @@
-buildscript
-{
-    repositories
-    {
+buildscript {
+    repositories {
+        maven { url = 'https://files.minecraftforge.net/maven' }
         jcenter()
-        maven
-        {
-            name = "forge"
-            url = "http://files.minecraftforge.net/maven"
-        }
+        mavenCentral()
     }
-    dependencies
-    {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.1-SNAPSHOT'
+    dependencies {
+        classpath group: 'net.minecraftforge.gradle', name: 'ForgeGradle', version: '3.+', changing: true
     }
 }
+apply plugin: 'net.minecraftforge.gradle'
+// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
+apply plugin: 'eclipse'
 
-apply plugin: "net.minecraftforge.gradle.forge"
+// Define properties file
+ext.configFile = file "gradle.properties"
+
+configFile.withReader
+{
+    // Load config. It shall from now be referenced as simply config or project.config
+    def prop = new Properties()
+    prop.load(it)
+    project.ext.config = new ConfigSlurper().parse prop
+}
 
 archivesBaseName = "greenscreen"
-group = "io.github.tehstoneman" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-version = "mc1.9-1.5"
+group = "io.github.tehstoneman.grnscrn"
+version = "${config.minecraft_version}-${config.mod_major_version}.${config.api_major_version}.${config.minor_version}.${config.patch_version}"
 
-// java version
-sourceCompatibility = 1.7
-targetCompatibility = 1.7
+sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 
-minecraft
-{
-    version = "1.9-12.16.0.1865-1.9"
-	mappings = "snapshot_nodoc_20160312"
+minecraft {
+    // The mappings can be changed at any time, and must be in the following format.
+    // snapshot_YYYYMMDD   Snapshot are built nightly.
+    // stable_#            Stables are built at the discretion of the MCP team.
+    // Use non-default mappings at your own risk. they may not always work.
+    // Simply re-run your setup task after changing the mappings to update your workspace.
+    mappings channel: 'snapshot', version: '20180921-1.13'
+    // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+    
+    // accessTransformer = file('build/resources/main/META-INF/accesstransformer.cfg')
 
-	if( file('../run').exists() )
-	{
-		runDir = "../run/assets"
-	}
-	else
-	{
-		runDir = "assets"
-	}
-}
+    // Default run configurations.
+    // These can be tweaked, removed, or duplicated as needed.
+    runs {
+        client {
+            workingDirectory project.file('run')
 
-sourceSets
-{
-    main
-    {
-        java
-        {
-        	srcDir 'java'
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                playground {
+                    source sourceSets.main
+                }
+            }
         }
-        resources
-        {
-        	srcDir 'resources'
+
+        server {
+            workingDirectory project.file('run')
+
+            // Recommended logging data for a userdev environment
+            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
+
+            // Recommended logging level for the console
+            property 'forge.logging.console.level', 'debug'
+
+            mods {
+                playground {
+                    source sourceSets.main
+                }
+            }
         }
     }
-//    api
-//    {
-//        java
-//        {
-//        	srcDir 'src/api/java'
-//        }
-//    }
 }
 
-// add api classes to main package
-//jar
-//{
-//	from sourceSets.api.output
-//}
-
-processResources
+dependencies
 {
-    // this will ensure that this task is redone when the versions change.
-    inputs.property "version", project.version
-    inputs.property "mcversion", project.minecraft.version
+    // Specify the version of Minecraft to use, If this is any group other then 'net.minecraft' it is assumed
+    // that the dep is a ForgeGradle 'patcher' dependency. And it's patches will be applied.
+    // The userdev artifact is a special name and will get all sorts of transformations applied to it.
+    minecraft 'net.minecraftforge:forge:1.13.2-25.0.50'
+}
 
-    // replace stuff in mcmod.info, nothing else
-    from(sourceSets.main.resources.srcDirs)
-    {
-        include 'mcmod.info'
-                
-        // replace version and mcversion
-        expand 'version':project.version, 'mcversion':project.minecraft.version
-    }
-        
-    // copy everything else, thats not the mcmod.info
-    from(sourceSets.main.resources.srcDirs)
-    {
-        exclude 'mcmod.info'
-        exclude '*.xcf'
+// Example for how to get properties into the manifest for reading by the runtime..
+jar {
+    manifest {
+        attributes([
+            "Specification-Title": "GreenScreen",
+            "Specification-Vendor": "TehStoneMan",
+            "Specification-Version": "1", // We are version 1 of ourselves
+            "Implementation-Title": project.name,
+            "Implementation-Version": "${version}",
+            "Implementation-Vendor" :"TehStoneMan",
+            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
+        ])
     }
 }

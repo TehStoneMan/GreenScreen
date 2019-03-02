@@ -4,6 +4,12 @@ Add a green screen to Minecraft for video composition
 
 ## Changelog
 
+3.0.0.0
+* Update for Minecraft 1.13.2
+
+2.0.0.0
+* Aborted update for Minecraft 1.10.2
+
 1.5
 
 * Update to Minecraft 1.9  

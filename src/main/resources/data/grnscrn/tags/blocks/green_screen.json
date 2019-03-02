@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "grnscrn:blue_screen",
+    "grnscrn:blue_screen_marker",
+    "grnscrn:green_screen",
+    "grnscrn:green_screen_marker"
+  ]
+}
