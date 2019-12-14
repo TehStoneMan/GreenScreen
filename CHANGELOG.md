@@ -11,9 +11,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Removed
 
-## [2.0.0.0] - Unreleased
+## [2.0.0.0] - 2019-12-14
 ### Changed
 - Updated to Minecraft 1.14.4
+
+## [1.5] - 2016-04-19
+### Changed
+- Updated to Minecraft 1.9
+- Green screen blocks can now be lit from behind
+
+## [1.4] - 2016-04-16
+### Changed
+- Updated to 1.8.9
 
 ## [1.2] - 2015-09-20
 ### Added
