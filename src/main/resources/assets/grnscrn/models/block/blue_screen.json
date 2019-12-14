@@ -1,6 +1,4 @@
 {
     "parent": "block/cube_all",
-    "textures": {
-        "all": "grnscrn:block/bluescreen"
-    }
+    "textures": { "all": "grnscrn:block/bluescreen" }
 }
