@@ -8,7 +8,8 @@ public class BlockGreenScreen extends Block
 {
 	public BlockGreenScreen()
 	{
-		super( Properties.from( Blocks.GREEN_WOOL ).lightValue( 8 ).hardnessAndResistance( 0.8F, 1200.0F ) );
+		//super( Properties.from( Blocks.GREEN_WOOL ).lightValue( 8 ).hardnessAndResistance( 0.8F, 1200.0F ) );
+		super( Properties.from( Blocks.GREEN_WOOL ).hardnessAndResistance( 0.8F, 1200.0F ) );
 	}
 
 	/*

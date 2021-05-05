@@ -1,6 +1,8 @@
 modLoader="javafml"
-loaderVersion="[25,)"
+loaderVersion="[36,)"
+license="MIT"
 issueTrackerURL="https://github.com/TehStoneMan/GreenScreen/issues"
+
 [[mods]]
 modId="grnscrn"
 version="${version}"
