@@ -1,6 +1,6 @@
-package io.github.tehstoneman.greenscreen.common.item;
+package io.github.tehstoneman.greenscreen.world.item;
 
-import net.minecraft.item.Item;
+import net.minecraft.world.item.Item;
 
 public class ItemClapper extends Item
 {
